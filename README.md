@@ -5,14 +5,7 @@
 
 ## TODO
 
-### 1
-
-babel配置
-
-### 2
-
-commitlint
-
-### 3
-
-基础请求库，router的搭建
+1. [x] commitlint
+2. [ ] babel配置  
+3. [ ] 基础请求库
+4. [ ] router  
