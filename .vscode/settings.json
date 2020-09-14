@@ -1,82 +1,74 @@
 {
-    "terminal.integrated.shell.osx": "zsh",
-    "window.zoomLevel": 0,
-    "cSpell.userWords": [
-        "Gulu",
-        "PITAYA",
-        "Slardar",
-        "Unmount",
-        "acrawler",
-        "alipay",
-        "antd",
-        "aweme",
-        "byted",
-        "bytedance",
-        "echarts",
-        "eykid",
-        "larkcloud",
-        "mobx",
-        "nbsp",
-        "noopener",
-        "noreferrer",
-        "tarojs",
-        "tencent",
-        "weapp",
-        "wechat"
-    ],
-    "workbench.iconTheme": "material-icon-theme",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.formatOnSave": true,
-    "editor.suggestSelection": "first",
-    "javascript.suggest.enabled": true,
-    "eslint.alwaysShowStatus": true,
-    "eslint.codeAction.disableRuleComment": {
-        "enable": true
-    },
-    "eslint.format.enable": true,
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact",
-        // "html",
-        "vue",
-        "markdown",
-        "json"
-    ],
-    "diffEditor.ignoreTrimWhitespace": false,
-    "files.autoSave": "off",
-    "eslint.codeAction.showDocumentation": {
-        "enable": true
-    },
-    "eslint.probe": [
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact",
-        // "html",
-        "vue",
-        "markdown",
-        "json"
-    ],
-    "emmet.excludeLanguages": [
-        "markdown"
-    ],
-    "editor.codeActionsOnSave": {
-        // For ESLint and StyleLint
-        "source.fixAll": true
-    },
-    "javascript.validate.enable": false,
-    "typescript.validate.enable": false,
-    "css.validate": false,
-    "less.validate": false,
-    "scss.validate": false,
-    "python.formatting.provider": "black",
-    // "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    // "[javascript]": {
-    //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-    // },
-    // "[typescript]": {
-    //   "editor.defaultFormatter": "vscode.typescript-language-features"
-    // }
+  "terminal.integrated.shell.osx": "zsh",
+  "window.zoomLevel": 0,
+  "cSpell.userWords": [
+    "Gulu",
+    "PITAYA",
+    "Slardar",
+    "Unmount",
+    "acrawler",
+    "alipay",
+    "antd",
+    "aweme",
+    "byted",
+    "bytedance",
+    "echarts",
+    "eykid",
+    "larkcloud",
+    "mobx",
+    "nbsp",
+    "noopener",
+    "noreferrer",
+    "tarojs",
+    "tencent",
+    "weapp",
+    "wechat"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "javascript.suggest.enabled": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeAction.disableRuleComment": {
+    "enable": true
+  },
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "json"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "files.autoSave": "off",
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.probe": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html", "vue", "markdown", "json"],
+  "emmet.excludeLanguages": ["markdown"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "python.formatting.provider": "black"
 }

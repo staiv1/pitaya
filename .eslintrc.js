@@ -1,62 +1,54 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'es2021': true,
-    'node': true
+  env: {
+    browser: true,
+    es6: true,
+    node: true,
   },
-  'extends': [
+  extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:json/recommended',
-    'plugin:markdown/recommended'
+    'plugin:markdown/recommended',
+    'prettier',
+    'prettier/@typescript-eslint',
+    'prettier/react',
   ],
-  'parser': '@typescript-eslint/parser',
-  'parserOptions': {
-    'ecmaFeatures': {
-      'jsx': true
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
     },
-    'ecmaVersion': 12,
-    'sourceType': 'module'
+    ecmaVersion: 2018,
+    sourceType: 'module',
   },
-  'plugins': [
+  plugins: [
     'react',
     '@typescript-eslint',
     'json',
-    'markdown'
+    'markdown',
+    'html',
+    'prettier',
   ],
-  'overrides': [
+  overrides: [
     {
-      'files': ['**/*.md'],
-      'processor': 'markdown/markdown'
+      files: ['**/*.md'],
+      processor: 'markdown/markdown',
     },
     {
-      'files': ['**/*.md/*.js'],
-      'rules': {
-      }
-    }
+      files: ['**/*.md/*.js'],
+      rules: {},
+    },
   ],
-  'rules': {
-    'indent': [
-      'error',
-      2
-    ],
-    'linebreak-style': [
-      'error',
-      'unix'
-    ],
-    'quotes': [
-      'error',
-      'single'
-    ],
-    'semi': [
-      'error',
-      'always'
-    ]
+  rules: {
+    'prettier/prettier': 'error',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
-  'settings': {
-    'react': {
-      'version': 'detect', // React version. "detect" automatically picks the version you have installed.
+  settings: {
+    react: {
+      version: 'detect',
     },
-  }
-};
+    'html/html-extensions': ['.html'],
+    'html/report-bad-indent': 'error',
+  },
+}
